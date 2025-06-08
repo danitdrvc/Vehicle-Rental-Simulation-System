@@ -60,8 +60,8 @@ A comprehensive JavaFX-based vehicle rental simulation system that manages elect
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/danitdrvc/vehicle-rental-simulation.git
-   cd vehicle-rental-simulation
+   git clone https://github.com/danitdrvc/Vehicle-Rental-Simulation-System.git
+   cd Vehicle-Rental-Simulation-System
    ```
 
 2. **Ensure JavaFX is properly configured**

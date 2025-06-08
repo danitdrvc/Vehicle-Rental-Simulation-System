@@ -1,0 +1,13 @@
+Račun za iznajmljivanje:
+Korisnik: K1
+Prevozno sredstvo: T2
+Datum i vrijeme iznajmljivanja: 2024-06-03T13:00
+Trajanje (sekunde): 11
+Pocetna lokacija: (9,1)
+Krajnja lokacija: (11,7)
+Kvar: Nema kvara
+Promocija: Korisnik nema promociju
+Popust: Korisnik nema popust
+Osnovna cijena: 88.0
+Skalar za dio grada: 2.0
+Ukupna cijena: 176.0

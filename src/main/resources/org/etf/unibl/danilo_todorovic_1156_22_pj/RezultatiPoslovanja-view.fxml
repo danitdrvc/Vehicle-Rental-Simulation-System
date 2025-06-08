@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="558.0" prefWidth="766.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.etf.unibl.danilo_todorovic_1156_22_pj.RezultatiController">
+    <!-- TableView for DnevniRezultatPoslovanja -->
+    <TableView fx:id="dnevniRezultatiTableView">
+        <columns>
+            <TableColumn fx:id="datumColumn" text="Datum" />
+            <TableColumn fx:id="ukupnaCijenaColumn" prefWidth="103.19998168945312" text="Ukupna cijena" />
+            <TableColumn fx:id="cijenaPopustaColumn" prefWidth="116.80000305175781" text="Ukupan popust" />
+            <TableColumn fx:id="cijenaPromocijeColumn" prefWidth="125.60003662109375" text="Ukupna promocija" />
+            <TableColumn fx:id="cijenaUdaljenostiColumn" prefWidth="114.4000244140625" text="Cijena udaljenosti" />
+            <TableColumn fx:id="cijenaOdrzavanjaColumn" prefWidth="123.199951171875" text="Ukupno odrzavanje" />
+            <TableColumn fx:id="cijenaPopravkiColumn" prefWidth="103.99993896484375" text="Cijena popravki" />
+        </columns>
+    </TableView>
+
+    <!-- Labels for SumarniRezultatPoslovanja -->
+    <Label style="-fx-font-weight: bold;" text="Total Summary:" />
+    <GridPane>
+        <columnConstraints>
+            <ColumnConstraints percentWidth="50" />
+            <ColumnConstraints percentWidth="50" />
+        </columnConstraints>
+        <Label text="Total Price:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <Label fx:id="totalPriceLabel" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+
+        <Label text="Discount Price:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <Label fx:id="discountPriceLabel" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+        <Label text="Promotion Price:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+        <Label fx:id="promotionPriceLabel" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+        <Label text="Distance Price:" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+        <Label fx:id="distancePriceLabel" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+        <Label text="Maintenance Price:" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+        <Label fx:id="maintenancePriceLabel" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+
+        <Label text="Repair Price:" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+        <Label fx:id="repairPriceLabel" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+
+        <Label text="Total Company Cost:" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+        <Label fx:id="totalCompanyCostLabel" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+
+        <Label text="Total Tax:" GridPane.columnIndex="0" GridPane.rowIndex="7" />
+        <Label fx:id="totalTaxLabel" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+      <rowConstraints>
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+      </rowConstraints>
+    </GridPane>
+</VBox>

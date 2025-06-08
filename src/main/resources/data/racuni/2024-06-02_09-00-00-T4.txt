@@ -1,0 +1,13 @@
+Račun za iznajmljivanje:
+Korisnik: K2
+Prevozno sredstvo: T4
+Datum i vrijeme iznajmljivanja: 2024-06-02T09:00
+Trajanje (sekunde): 7
+Pocetna lokacija: (14,16)
+Krajnja lokacija: (3,13)
+Kvar: Nema kvara
+Promocija: Korisnik nema promociju
+Popust: Korisnik nema popust
+Osnovna cijena: 56.0
+Skalar za dio grada: 2.0
+Ukupna cijena: 112.0

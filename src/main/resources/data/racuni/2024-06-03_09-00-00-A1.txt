@@ -1,0 +1,15 @@
+Račun za iznajmljivanje:
+Korisnik: K4
+Identifikacioni dokument: 123456
+Broj vozacke dozvole: 654321
+Prevozno sredstvo: A1
+Datum i vrijeme iznajmljivanja: 2024-06-03T09:00
+Trajanje (sekunde): 11
+Pocetna lokacija: (16,19)
+Krajnja lokacija: (16,4)
+Kvar: Nema kvara
+Promocija: Korisnik nema promociju
+Popust: Korisnik nema popust
+Osnovna cijena: 330.0
+Skalar za dio grada: 2.0
+Ukupna cijena: 660.0

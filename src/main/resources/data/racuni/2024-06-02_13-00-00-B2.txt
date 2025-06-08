@@ -1,0 +1,13 @@
+Račun za iznajmljivanje:
+Korisnik: K3
+Prevozno sredstvo: B2
+Datum i vrijeme iznajmljivanja: 2024-06-02T13:00
+Trajanje (sekunde): 10
+Pocetna lokacija: (7,8)
+Krajnja lokacija: (12,2)
+Kvar: Nema kvara
+Promocija: Korisnik nema promociju
+Popust: Korisnik nema popust
+Osnovna cijena: 100.0
+Skalar za dio grada: 2.0
+Ukupna cijena: 200.0

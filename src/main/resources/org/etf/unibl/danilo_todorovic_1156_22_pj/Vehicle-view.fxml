@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="610.0" prefWidth="848.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.etf.unibl.danilo_todorovic_1156_22_pj.VehicleController">
+   <Label alignment="CENTER" prefHeight="28.0" prefWidth="850.0" text="AUTOMOBILI:" textFill="#333333">
+      <font>
+         <Font name="Berlin Sans FB" size="16.0" />
+      </font>
+   </Label>
+    <TableView fx:id="automobilTableView" prefHeight="172.0" prefWidth="854.0">
+        <columns>
+            <TableColumn fx:id="automobilIdColumn" prefWidth="62.0" style="-fx-background-color: red;" text="ID" />
+            <TableColumn fx:id="automobilProizvodjacColumn" text="Proizvodjac" />
+            <TableColumn fx:id="automobilMmodelColumn" prefWidth="95.0" text="Model" />
+            <TableColumn fx:id="automobilCijenaNabavkeColumn" prefWidth="120.0" text="Cijena Nabavke" />
+            <TableColumn fx:id="automobilTrenutniNivoBaterijeColumn" minWidth="140.0" prefWidth="154.0" text="Trenutni Nivo Baterije" />
+            <TableColumn fx:id="automobilDatumNabavkeColumn" prefWidth="117.0" text="Datum Nabavke" />
+            <TableColumn fx:id="automobilOpisColumn" prefWidth="75.99993896484375" text="Opis" />
+            <TableColumn fx:id="automobilKapacitetOsobaColumn" prefWidth="121.5999755859375" text="Kapacitet Osoba" />
+        </columns>
+    </TableView>
+   <Label alignment="CENTER" prefHeight="30.0" prefWidth="850.0" text="BICIKLI:" textFill="#333333">
+      <font>
+         <Font name="Berlin Sans FB" size="16.0" />
+      </font>
+   </Label>
+
+    <TableView fx:id="elektricniBiciklTableView" prefHeight="205.0" prefWidth="848.0">
+        <columns>
+            <TableColumn fx:id="biciklIidColumn" prefWidth="62.0" style="-fx-background-color: green;" text="ID" />
+            <TableColumn fx:id="biciklProizvodjacColumn" text="Proizvodjac" />
+            <TableColumn fx:id="biciklModelColumn" prefWidth="95.0" text="Model" />
+            <TableColumn fx:id="biciklCijenaNabavkeColumn" prefWidth="120.0" text="Cijena Nabavke" />
+            <TableColumn fx:id="biciklTrenutniNivoBaterijeColumn" minWidth="140.0" prefWidth="154.0" text="Trenutni Nivo Baterije" />
+            <TableColumn fx:id="biciklAutonomijaColumn" prefWidth="117.0" text="Autonomija" />
+        </columns>
+    </TableView>
+   <Label alignment="CENTER" prefHeight="33.0" prefWidth="857.0" text="TROTINETI:" textFill="#464646">
+      <font>
+         <Font name="Berlin Sans FB" size="16.0" />
+      </font>
+   </Label>
+
+    <TableView fx:id="elektricniTrotinetTableView" prefHeight="288.0" prefWidth="848.0">
+        <columns>
+            <TableColumn fx:id="trotinetIdColumn" prefWidth="62.0" style="-fx-background-color: blue;" text="ID" />
+            <TableColumn fx:id="trotinetProizvodjacColumn" text="Proizvodjac" />
+            <TableColumn fx:id="trotinetModelColumn" prefWidth="95.0" text="Model" />
+            <TableColumn fx:id="trotinetCijenaNabavkeColumn" prefWidth="120.0" text="Cijena Nabavke" />
+            <TableColumn fx:id="trotinetTrenutniNivoBaterijeColumn" minWidth="123.20001220703125" prefWidth="154.0" text="Trenutni Nivo Baterije" />
+            <TableColumn fx:id="trotinetMaksimalnaBrzinaColumn" prefWidth="117.0" text="Maksimalna Brzina" />
+        </columns>
+    </TableView>
+</VBox>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="440.0" prefWidth="749.0" spacing="10" style="-fx-padding: 20;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="org.etf.unibl.danilo_todorovic_1156_22_pj.DeserializationController">
+   <Label text="POKVARENA PREVOZNA SREDSTVA I CIJENA POPRAVKI:">
+      <font>
+         <Font name="Berlin Sans FB" size="14.0" />
+      </font>
+   </Label>
+
+    <!-- TableView to display PrevoznoSredstvo details -->
+    <TableView fx:id="prevoznoSredstvoTable" prefHeight="400" prefWidth="600">
+        <columns>
+        <!-- ID Column -->
+            <TableColumn fx:id="prevoznoSredstvoIdColumn" prefWidth="141.0" text="ID">
+            </TableColumn>
+
+        <!-- Proizvođač Column -->
+            <TableColumn fx:id="prevoznoSredstvoProizvodjacColumn" prefWidth="141.0" text="Proizvođač">
+            </TableColumn>
+
+            <!-- Model Column -->
+            <TableColumn fx:id="prevoznoSredstvoModelColumn" prefWidth="141.0" text="Model">
+            </TableColumn>
+
+            <!-- Cijena Nabavke Column -->
+            <TableColumn fx:id="prevoznoSredstvoCijenaNabakeColumn" prefWidth="141.0" text="Cijena Nabavke">
+            </TableColumn>
+
+            <!-- Cijena Column -->
+            <TableColumn fx:id="prevoznoSredstvoCijenaPopravkeColumn" prefWidth="141.0" text="Cijena">
+            </TableColumn>
+        </columns>
+    </TableView>
+</VBox>
